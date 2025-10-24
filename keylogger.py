@@ -83,6 +83,7 @@ with Listener(on_press=on_pressed, on_release=on_released) as listener:
 
 
 # Issues:
-# Appends strings within the text file in a weird way, should be refined to be far more human readable
+
 # Causes an error when "esc" is pressed, should instead be a message to the console
 # Discord account and channel are hard-coded (removed to prevent issues), should fetch that info from somewhere remotegit config --global user.email "email@example.com"
+# Appends strings within the text file in a weird way, should be refined to be far more human readable
